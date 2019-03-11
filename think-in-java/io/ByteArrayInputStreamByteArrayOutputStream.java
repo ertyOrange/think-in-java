@@ -2,7 +2,7 @@ package io;
 
 import java.io.*; 
 
-public class ByteArrayInputStream_ByteArrayOutputStream
+public class ByteArrayInputStreamByteArrayOutputStream
 {  
     public static void main(String[] args) throws Exception
     {

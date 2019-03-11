@@ -14,3 +14,9 @@
 /circle.class
 /FileInputStream_FileOutputStream.class
 /ZipInputStream_ZipOutputStream.class
+/BufferedInputStream_BufferedInputStream.class
+/BufferedInputStreamAndBufferedInputStream.class
+/BufferedInputStreamBufferedInputStream.class
+/ByteArrayInputStreamByteArrayOutputStream.class
+/FileInputStreamFileOutputStream.class
+/ZipInputStreamZipOutputStream.class

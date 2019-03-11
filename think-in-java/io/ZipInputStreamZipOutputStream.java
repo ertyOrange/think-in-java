@@ -8,7 +8,7 @@ import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
 import java.io.FileOutputStream;
  
-public class ZipInputStream_ZipOutputStream
+public class ZipInputStreamZipOutputStream
 {  
     public static void main(String[] args) throws Exception
     {
