@@ -20,3 +20,9 @@
 /ByteArrayInputStreamByteArrayOutputStream.class
 /FileInputStreamFileOutputStream.class
 /ZipInputStreamZipOutputStream.class
+/DataInputStreamDataOutputStream.class
+/ObjectInputStreamObjectOutputStream.class
+/People.class
+/PipedInputStreamPipedOutputStream.class
+/ReadThread.class
+/WriteThread.class

@@ -5,8 +5,8 @@ public class BufferedInputStreamBufferedInputStream
 {  
     public static void main(String[] args) throws Exception
     {
-        File filein = new File("C:/1.png");
-        File fileout = new File("C:/out.png");
+        File filein = new File("C:\\Users\\yy263\\Desktop\\think in java\\1.png");
+        File fileout = new File("C:\\Users\\yy263\\Desktop\\think in java\\out.png");
         try 
         {
             //前面说过，File类它不负责数据的输入输出，而专门用来管理磁盘文件与目录
