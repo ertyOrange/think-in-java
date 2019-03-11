@@ -1,5 +1,6 @@
-package io;
+package file;
 
+import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -32,6 +33,10 @@ public class copyFileDemo {
 		
 		fileOutPut.close();
 		fileInPut.close();
+		
+		BufferedInputStream bufferedInputStream =new BufferedInputStream(fileInPut);
+		
+		//bufferedInputStream.
 		
 	}
 }

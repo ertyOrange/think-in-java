@@ -5,7 +5,7 @@
  * @author yy263
  *
  */
-package io;
+package file;
 
 import java.io.File;
 import java.io.FilenameFilter;
