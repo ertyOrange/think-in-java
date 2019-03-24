@@ -26,3 +26,7 @@
 /PipedInputStreamPipedOutputStream.class
 /ReadThread.class
 /WriteThread.class
+/InputStreamReaderOutputStreamReader.class
+/FileReaderFileWriter.class
+/BufferedReaderBufferedWriter.class
+/io2.class
