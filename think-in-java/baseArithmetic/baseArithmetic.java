@@ -12,20 +12,27 @@ public class baseArithmetic {
 	
 	public static void main(String[] args) {
 		
+		int a = search( new String[]{"1","2","3"}, "5");
+		System.out.println(a);
 	}
 	
 
+
+
+
 //二分法查找
-public static int search(int[] arr, int key){
+public static int search(String[] arr, String key){
     int start=0;
     int end=arr.length-1;
     while (start<=end)
     {
+    	System.out.println("start:"+ start +"\n"+"end :"+end);
+    	
         int mid = (end+start)/2;
-        if (key<arr[mid])
+        if (key.equals(arr[mid]))
         {
             end=mid-1;
-        }else if (key>arr[mid]){
+        }else if (key.equals(arr[mid])){
             start=mid+1;
         }else {
             return mid;
