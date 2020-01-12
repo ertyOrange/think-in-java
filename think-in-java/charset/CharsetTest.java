@@ -5,7 +5,7 @@
  * @author yy263
  *
  */
-package test;
+package charset;
 
 //import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;
@@ -14,7 +14,7 @@ import java.nio.charset.Charset;
 import java.util.Iterator;
 import java.util.Set;
 
-public class test {
+public class CharsetTest {
 public static void main(String[] args) throws Exception  {
     Charset charset = Charset.forName("utf8");
     System.out.println(charset.name()+"--"+charset.canEncode());
